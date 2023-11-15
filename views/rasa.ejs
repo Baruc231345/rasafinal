@@ -59,7 +59,7 @@
               <div class="fields1">
                 <div class="input-field">
                   <label>Full Name</label>
-                  <input type="text" id="full_name" placeholder="Enter your name">
+                  <input type="text" id="full_name" placeholder="Enter your name" required >
                 </div>
                 <div class="input-field">
                   <label>Contact Number </label>
@@ -90,14 +90,14 @@
               <div class="fields2">
                 <div class="input-field" required>
                   <label>Event Name</label>
-                  <input type="text" id="event_name" placeholder="Enter Event Name">
+                  <input type="text" id="event_name" placeholder="Enter Event Name" required>
                 </div>
                 <div class="input-field" required>
                   <label>Event Date/Day</label>
                   <input type="date" id="event_day" value="10/13/2023" onchange="formatDate()" style="width: 268px;">
                 </div>
                 <div class="input-field" required>
-                  <label for="event_description">Event Description</label>
+                  <label for="event_description">Event Description</label required>
                   <div class="select-wrapper">
                     <select id="event_description">
                       <option value="" disabled selected>Select Description</option>
