@@ -337,21 +337,21 @@
                 <canvas id="form_sign" width="200" height="150"></canvas>
               </div>
               <div class="form_sign">
-                <div id="form_sign">Venue Approval</div>
+                <div id="form_sign">Endorsed By</div>
               </div>
 
               <div class="signature-container">
                 <canvas id="form_sign2" width="200" height="150"></canvas>
               </div>
               <div class="form_sign2">
-                <div id="form_sign2">MIS/IT Approval</div>
+                <div id="form_sign2">Venue Approval</div>
               </div>
 
               <div class="signature-container">
                 <canvas id="form_sign3" width="200" height="150"></canvas>
               </div>
               <div class="form_sign3">
-                <div id="form_sign3">Endorsed By</div>
+                <div id="form_sign3">MIS/IT By</div>
               </div>
             </div>
 
@@ -485,6 +485,7 @@
       const required_day = document.getElementById("required_day");
       const contact_number = document.getElementById("contact_number");
       const participants = document.getElementById("participants");
+      const endorsed = document.getElementById("endorsed");
       const purpose_objectives = document.getElementById("purpose_objectives");
 
       const inventory = {
@@ -604,6 +605,7 @@
           requestor_information: requestor_information.value,
           requestor_type: requestor_type.value,
           required_day: required_day.value,
+          endorsed: endorsed.value,
           contact_number: contact_number.value,
           participants: participants.value,
           purpose_objectives: purpose_objectives.value,

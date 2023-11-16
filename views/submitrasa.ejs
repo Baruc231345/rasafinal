@@ -38,6 +38,11 @@
               <input type="text" id="requestor_type" value="<%= datainputted.requestor_type %>" disabled>
             </div>
 
+            <div class="input-field">
+              <label>Endorsed by</label>
+              <input type="text" id="endorsed" value="<%= datainputted.endorsed %>" disabled>
+            </div>
+
           </div>
         </div>
       </div>
@@ -213,6 +218,7 @@
       participants: document.getElementById('participants').value,
       required_day: document.getElementById('required_day').value,
       purpose_objectives: document.getElementById('purpose_objectives').value,
+      endorsed: document.getElementById('endorsed').value,
       authenticated: 0,
     };
     console.log(rasatesting2 + "this is rasatesting2 json");

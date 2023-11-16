@@ -14,6 +14,7 @@ const rasatesting = async (req, res) => {
     contact_number,
     participants,
     purpose_objectives,
+    endorsed,
   } = req.body;
 
   // Calculate end_date based on event_day and required_day
@@ -45,6 +46,7 @@ const rasatesting = async (req, res) => {
       end_date: end_date, 
       requestor_information: requestor_information,
       requestor_type: requestor_type,
+      endorsed: endorsed,
       required_day: required_day,
       contact_number: contact_number,
       purpose_objectives: purpose_objectives,
